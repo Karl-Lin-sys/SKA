@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課程計畫引導師 - Sunny Kids Academy | 卓越教育與學習科学</title>
+    <meta name="description" content="Sunny Kids Academyの「課程計畫引導師」向けポートフォリオ。学習科学（能動的想起・心智圖）とNLPの専門知識を融合した革新的な教育戦略。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-icon">SKA</div>
+                <div class="logo-text">
+                    <span class="logo-title">Sunny Kids</span>
+                    <span class="logo-subtitle">Academy</span>
+                </div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <button class="nav-item active" data-tab="overview">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    <span>概要・役割</span>
+                </button>
+                <button class="nav-item" data-tab="science">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                    <span>学習科学の功罪</span>
+                </button>
+                <button class="nav-item" data-tab="hybrid">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    <span>想起マッピング</span>
+                </button>
+                <button class="nav-item" data-tab="karpicke">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                    <span>最先端研究の動向</span>
+                </button>
+                <button class="nav-item" data-tab="interview">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <span>面接対策シミュレータ</span>
+                </button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="テーマ切り替え">
+                    <span class="sun-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+                    <span class="theme-text">ダークモード</span>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="content-header">
+                <div class="header-title-area">
+                    <h1>課程計畫引導師 (Curriculum Plan Guide)</h1>
+                    <p class="subtitle">学習科学 × NLP による次世代の自律学習指導戦略</p>
+                </div>
+                <div class="badge-status">
+                    <span class="pulse-dot"></span>
+                    <span>面接戦略ダッシュボード</span>
+                </div>
+            </header>
+
+            <!-- Tab 1: Overview & SKA Philosophy -->
+            <section id="overview" class="tab-content active">
+                <div class="grid-layout">
+                    <!-- Concept Intro -->
+                    <div class="card hero-card col-span-2">
+                        <div class="card-content">
+                            <span class="card-tag">教育理念</span>
+                            <h2>生涯にわたって役立つ「持ち運べる能力」を育む</h2>
+                            <p>Sunny Kids Academyは、単なる知識 of 詰め込みではなく、生徒の自律的な学習能力を引き出す教育を実践しています。その中核を担うのが<strong>「課程計畫引導師」</strong>であり、単なる教師ではなく、学習プロセス全体を伴走する<strong>「学習コーチ」</strong>であり<strong>「教育デザイナー」</strong>です。</p>
+                            <div class="action-buttons">
+                                <button class="btn btn-primary" onclick="switchTab('interview')">面接シミュレータを起動</button>
+                                <button class="btn btn-secondary" onclick="switchTab('science')">心智圖の功罪を学ぶ</button>
+                            </div>
+                        </div>
+                        <div class="hero-visual">
+                            <!-- SVG decorative elements representing guidance -->
+                            <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="floating-svg">
+                                <circle cx="100" cy="100" r="80" stroke="var(--primary)" stroke-width="2" stroke-dasharray="8 4"/>
+                                <circle cx="100" cy="100" r="50" stroke="var(--accent)" stroke-width="3"/>
+                                <path d="M100 20 V180 M20 100 H180" stroke="var(--border)" stroke-width="1"/>
+                                <circle cx="100" cy="50" r="10" fill="var(--primary)"/>
+                                <circle cx="150" cy="120" r="8" fill="var(--accent)"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- Otto2 Education Section -->
+                    <div class="card col-span-1">
+                        <div class="card-header">
+                            <span class="card-tag tag-purple">カリキュラムの特長</span>
+                            <h3>Otto2 藝術美學の導入</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>台湾を中心に200以上の教室を展開する創造的教育プログラム。感性と主体性を高める3つのアプローチを基本としています。</p>
+                            <div class="otto-steps">
+                                <div class="otto-step">
+                                    <div class="step-num">01</div>
+                                    <div class="step-detail">
+                                        <h4>引導想像 (想像力を引き出す)</h4>
+                                        <p>子供たちの豊かな創造性を刺激します。</p>
+                                    </div>
+                                </div>
+                                <div class="otto-step">
+                                    <div class="step-num">02</div>
+                                    <div class="step-detail">
+                                        <h4>創作呈現 (創作で表現する)</h4>
+                                        <p>形にすることで自信と論理性を養います。</p>
+                                    </div>
+                                </div>
+                                <div class="otto-step">
+                                    <div class="step-num">03</div>
+                                    <div class="step-detail">
+                                        <h4>親子共享 (親子で分かち合う)</h4>
+                                        <p>学びの喜びを家庭へと繋げます。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-container">
+                                <img src="https://www.otto2.com.tw/resources/_img/index/idx-about.png" alt="Otto2 藝術美學の教育理念" onerror="this.src='https://via.placeholder.com/400x150/6c5ce7/ffffff?text=Otto2+Art+Education'">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Role Details Table -->
+                    <div class="card col-span-3">
+                        <div class="card-header">
+                            <h3>「課程計畫引導師」の具体的な職務内容</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-wrapper">
+                                <table class="interactive-table">
+                                    <thead>
+                                        <tr>
+                                            <th>職務領域</th>
+                                            <th>具体的な活動内容</th>
+                                            <th>学習科学/NLPの応用アプローチ</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="bold-text">個別カウンセリング</td>
+                                            <td>生徒の心の声、興味、悩みを傾聴し精神的サポートを実施。</td>
+                                            <td>NLPのラポール形成技術と心理カウンセリング手法の適用。</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bold-text">学習計画の設計</td>
+                                            <td>生徒一人ひとりの目標、学習進度、認知特性に適合した計画を作成。</td>
+                                            <td>学習者のメタ認知を刺激するマイルストーン設定とパーソナライズ。</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bold-text">カリキュラム開発</td>
+                                            <td>授業コンテンツ、教材、季節講習特別プログラムの企画・立案。</td>
+                                            <td>学習科学に基づく、難易度のスキャフォールディング(足場かけ)設計。</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bold-text">学習方法の指導</td>
+                                            <td>効果的な学習戦略(心智圖・能動的想起など)の実践的指導。</td>
+                                            <td><strong>想起マッピング</strong>による能力の錯覚の防止と記憶定着。</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bold-text">自己研鑽</td>
+                                            <td>定期的な教育研修、学習科学研究トレンドのインプットと共有。</td>
+                                            <td>エビデンスベースド教育(EBE)による指導のアップデート。</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab 2: Science & Illusion of Competence -->
+            <section id="science" class="tab-content">
+                <div class="grid-layout">
+                    <div class="card col-span-2">
+                        <div class="card-header">
+                            <span class="card-tag tag-red">認知バイアス</span>
+                            <h3>心智圖の落とし穴：「能力の錯覚 (Illusion of Competence)」</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>マインドマップ（心智圖）は、情報をきれいに整理し可視化することに優れています。しかし、学習において重大な弱点があります。それは、<strong>「整理された綺麗な図を眺めているだけで、内容を完璧に理解したと勘違いしてしまう」</strong>現象です。</p>
+                            
+                            <div class="comparison-cards">
+                                <div class="comp-card bad">
+                                    <h4>受動的な心智圖学習（能力の錯覚）</h4>
+                                    <ul>
+                                        <li>完成されたマップを何度も繰り返し眺める</li>
+                                        <li>綺麗に色分けされた図で視覚的な満足感を得る</li>
+                                        <li>脳への負荷が少なく、知識の「再認」にとどまる</li>
+                                        <li><strong>結果:</strong> 本番テストで思い出せない</li>
+                                    </ul>
+                                </div>
+                                <div class="comp-card good">
+                                    <h4>能動的想起との融合（本物の理解）</h4>
+                                    <ul>
+                                        <li>白紙から自分の記憶だけでマップを構築する</li>
+                                        <li>思い出せなかった部分（知識の穴）を特定する</li>
+                                        <li>「思い出す努力」により神経回路を強化する</li>
+                                        <li><strong>結果:</strong> 長期記憶への確実な定着</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Meta-analysis Stats -->
+                    <div class="card col-span-1">
+                        <div class="card-header">
+                            <span class="card-tag tag-green">エビデンス</span>
+                            <h3>心智圖の効果を示す最新メタ分析</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="stat-list">
+                                <div class="stat-item">
+                                    <span class="stat-value">g = 0.73</span>
+                                    <span class="stat-desc">批判的思考力の大幅な向上効果量 (2024 Meta-Analysis)</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">有意差あり</span>
+                                    <span class="stat-desc">医学・臨床教育(SRT)において従来講義形式よりスコア改善 (2026)</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">相補的活用</span>
+                                    <span class="stat-desc">「創造的発想」と「論理的整理」の双方において高い貢献</span>
+                                </div>
+                            </div>
+                            <div class="image-container" style="margin-top: 1.5rem;">
+                                <img src="https://www.frontiersin.org/files/Articles/1789650/xml-images/fmed-13-1789650-g002.webp" alt="心智圖とLBLのメタ分析比較" onerror="this.src='https://via.placeholder.com/400x200/2ecc71/ffffff?text=Meta-Analysis+Evidence'">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab 3: Hybrid Strategy (Retrieval Mapping) -->
+            <section id="hybrid" class="tab-content">
+                <div class="grid-layout">
+                    <div class="card col-span-2">
+                        <div class="card-header">
+                            <span class="card-tag tag-blue">実践ワークフロー</span>
+                            <h3>想起マッピング (Retrieval Mapping) シミュレータ</h3>
+                            <p class="section-desc">生徒が「能力の錯覚」を回避し、効率的に記憶を定着させるステップを疑似体験できます。</p>
+                        </div>
+                        <div class="card-body">
+                            <!-- Stepper component -->
+                            <div class="stepper">
+                                <div class="step-indicator">
+                                    <div class="step-indicator-item active" data-step="1">1. 想起</div>
+                                    <div class="step-indicator-item" data-step="2">2. 照合</div>
+                                    <div class="step-indicator-item" data-step="3">3. 強化</div>
+                                </div>
+                                
+                                <div class="step-content active" id="step-1-content">
+                                    <h4>ステップ1: 想起マッピング (Retrieval Mapping)</h4>
+                                    <p class="step-instruction">学習したトピックの後、テキストを完全に閉じ、覚えていることだけでマインドマップを記述させます。美しいマップにする必要はありません。脳から情報を引き出す行為自体が重要です。</p>
+                                    <div class="simulation-canvas memory-recall">
+                                        <div class="map-node root">光合成</div>
+                                        <div class="map-node child" style="top: 20%; left: 10%;">水が必要</div>
+                                        <div class="map-node child" style="top: 30%; right: 10%;">二酸化炭素</div>
+                                        <div class="map-node child" style="bottom: 25%; left: 20%;">太陽光</div>
+                                        <div class="map-node child question" style="bottom: 30%; right: 15%;">？ (何かあったはず...)</div>
+                                    </div>
+                                </div>
+
+                                <div class="step-content" id="step-2-content">
+                                    <h4>ステップ2: 知識ギャップの確認 (Gap Detection)</h4>
+                                    <p class="step-instruction">テキストを開き、自分が作成したマップと見比べます。抜け漏れていた知識や、誤解していた繋がりを<strong>異なるペン（赤色など）</strong>で追記します。これにより脳がエラーを認識し、記憶が補正されます。</p>
+                                    <div class="simulation-canvas gap-detect">
+                                        <div class="map-node root">光合成</div>
+                                        <div class="map-node child" style="top: 20%; left: 10%;">水が必要</div>
+                                        <div class="map-node child" style="top: 30%; right: 10%;">二酸化炭素</div>
+                                        <div class="map-node child" style="bottom: 25%; left: 20%;">太陽光</div>
+                                        <div class="map-node child correction" style="bottom: 30%; right: 15%;">酸素の発生 (漏れ!)</div>
+                                        <div class="map-node child correction" style="top: 50%; left: 50%;">葉緑体で行う (漏れ!)</div>
+                                    </div>
+                                </div>
+
+                                <div class="step-content" id="step-3-content">
+                                    <h4>ステップ3: 間隔反復 (Spaced Repetition)</h4>
+                                    <p class="step-instruction">この「想起→補正」のプロセスを、翌日、1週間後、1ヶ月後と間隔を空けて繰り返します。シナプスの結合が極めて強固になり、反射レベルで知識が定着します。</p>
+                                    <div class="simulation-canvas repetition">
+                                        <div class="curve-chart">
+                                            <!-- Simple CSS representation of Ebbinghaus Forgetting Curve -->
+                                            <div class="curve-line"></div>
+                                            <div class="forgetting-point point-1">1日目 (復習後 100%)</div>
+                                            <div class="forgetting-point point-2">7日目 (復習後 100%)</div>
+                                        </div>
+                                        <p style="text-align: center; font-size: 0.9rem; color: var(--text-muted); margin-top: 1rem;">間隔を徐々に伸ばすことで、最小限の努力で記憶を維持します。</p>
+                                    </div>
+                                </div>
+
+                                <div class="stepper-controls">
+                                    <button class="btn btn-secondary" id="btn-prev" disabled>戻る</button>
+                                    <button class="btn btn-primary" id="btn-next">次のステップへ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-span-1">
+                        <div class="card-header">
+                            <h3>教育フローチャート</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Miro等で推奨される、自律学習を定着させるための全体フローです。</p>
+                            <div class="image-container">
+                                <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*gpM0jS822O8M3AENqsE-cA.png" alt="能動的想起と心智圖フロー" onerror="this.src='https://via.placeholder.com/400x300/3498db/ffffff?text=Active+Recall+Flow'">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab 4: Karpicke & Blunt vs 2023 Study -->
+            <section id="karpicke" class="tab-content">
+                <div class="grid-layout">
+                    <div class="card col-span-2">
+                        <div class="card-header">
+                            <span class="card-tag tag-purple">学術論争</span>
+                            <h3>Karpicke & Blunt (2011) と 2023年追試の真実</h3>
+                            <p class="section-desc">「能動的想起」と「概念マッピング」の優位性をめぐる、学習科学界の重要な議論。</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="karpicke-tabs">
+                                <button class="k-tab-btn active" data-study="2011">2011年 Science 論文</button>
+                                <button class="k-tab-btn" data-study="2023">2023年 反論・追試研究</button>
+                            </div>
+
+                            <div class="study-details active" id="study-2011-content">
+                                <h4>実験概要: 大学生に科学的文章を学習させ、4群でテスト成績を比較</h4>
+                                <p>結果、<strong>「能動的想起」群が他のマッピング群などを圧倒。</strong>推論問題においてもマッピング群より優れた成績を収め、「想起が最高の記憶法である」と結論づけられました。</p>
+                                
+                                <div class="chart-container">
+                                    <h5 class="chart-title">1週間後のテスト正解率 (2011年データ)</h5>
+                                    <div class="bar-chart">
+                                        <div class="bar-row">
+                                            <span class="bar-label">1. 再読のみ</span>
+                                            <div class="bar-wrapper"><div class="bar-fill color-gray" style="width: 50%;">50%</div></div>
+                                        </div>
+                                        <div class="bar-row">
+                                            <span class="bar-label">2. 概念マップ作成</span>
+                                            <div class="bar-wrapper"><div class="bar-fill color-blue" style="width: 58%;">58%</div></div>
+                                        </div>
+                                        <div class="bar-row highlight">
+                                            <span class="bar-label">3. 能動的想起</span>
+                                            <div class="bar-wrapper"><div class="bar-fill color-accent" style="width: 74%;">74%</div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="study-details" id="study-2023-content">
+                                <h4>追試の発見: 2011年実験はマッピング側の「学習時間」が不足していた</h4>
+                                <p>2023年の研究では、マッピング群が単にマップを作成する時間しか与えられておらず、その後の記憶整理時間が考慮されていないことが指摘されました。<strong>学習時間を同等に統制した場合、両者の優位差は消失</strong>することが判明しました。</p>
+
+                                <div class="chart-container">
+                                    <h5 class="chart-title">学習時間を統一した場合のテスト正解率 (2023年追試データ)</h5>
+                                    <div class="bar-chart">
+                                        <div class="bar-row">
+                                            <span class="bar-label">概念マップ (時間統制)</span>
+                                            <div class="bar-wrapper"><div class="bar-fill color-blue" style="width: 71%;">71%</div></div>
+                                        </div>
+                                        <div class="bar-row">
+                                            <span class="bar-label">能動的想起 (時間統制)</span>
+                                            <div class="bar-wrapper"><div class="bar-fill color-accent" style="width: 72%;">72%</div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="educational-insight">
+                                <h5>💡 課程計畫引導師としての結論</h5>
+                                <p>「マインドマップは効果がない」のではなく、<strong>「使い方の調整と適切な学習時間の配分」</strong>こそが重要です。構造をマッピングした後に、しっかりと想起のトレーニングを取り入れるハイブリッドアプローチがベストプラクティスとなります。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-span-1">
+                        <div class="card-header">
+                            <h3>学習法の特長比較</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="feature-table">
+                                <div class="f-row">
+                                    <span class="f-label">記憶の長期定着</span>
+                                    <span class="f-value tag-green">能動的想起が極めて強</span>
+                                </div>
+                                <div class="f-row">
+                                    <span class="f-label">全体構造の把握</span>
+                                    <span class="f-value tag-blue">心智圖が圧倒的優位</span>
+                                </div>
+                                <div class="f-row">
+                                    <span class="f-label">アイデア創出</span>
+                                    <span class="f-value tag-blue">心智圖が有用</span>
+                                </div>
+                                <div class="f-row">
+                                    <span class="f-label">導入のしやすさ</span>
+                                    <span class="f-value tag-purple">状況に応じて使い分け</span>
+                                </div>
+                            </div>
+                            <p class="note-text">※Karpickeの研究を多角的に把握していること自体が、面接において強力なアピールポイント（高いメタ認知）になります。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab 5: Interview Prep Hub -->
+            <section id="interview" class="tab-content">
+                <div class="grid-layout">
+                    <!-- Left: Interview Simulator -->
+                    <div class="card col-span-2">
+                        <div class="card-header">
+                            <span class="card-tag tag-purple">面接ロールプレイ</span>
+                            <h3>課程計畫引導師・採用面接シミュレータ</h3>
+                            <p class="section-desc">面接官からの想定質問に対し、NLPと学習科学の知見を融合した回答例と解説を確認できます。</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="question-selector">
+                                <button class="q-btn active" data-q="q1">質問 1: NLP × 言語指導</button>
+                                <button class="q-btn" data-q="q2">質問 2: 心智圖の能力錯覚への反論</button>
+                                <button class="q-btn" data-q="q3">質問 3: 学習法資格の活かし方</button>
+                            </div>
+
+                            <div class="interview-box">
+                                <div class="interviewer-speech">
+                                    <div class="avatar">面接官</div>
+                                    <div class="speech-bubble">
+                                        <p id="interviewer-text">質問を選択してください。</p>
+                                    </div>
+                                </div>
+
+                                <div class="candidate-speech">
+                                    <div class="avatar candidate">あなた</div>
+                                    <div class="speech-bubble candidate">
+                                        <div class="speech-header">
+                                            <span class="bubble-title">提案回答モデル</span>
+                                            <button class="copy-btn" onclick="copyAnswerText()">回答をコピー</button>
+                                        </div>
+                                        <p id="candidate-text" class="typed-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="commentary-box">
+                                <h5>🌟 指導戦略・アピールポイントの解説</h5>
+                                <p id="commentary-text"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Strengths & Certificate Evidence -->
+                    <div class="card col-span-1">
+                        <div class="card-header">
+                            <h3>アピール裏付けエビデンス</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="certificate-list">
+                                <div class="cert-item">
+                                    <div class="cert-icon">🎓</div>
+                                    <div class="cert-info">
+                                        <h4>Learning How to Learn for Youth</h4>
+                                        <p>脳科学に基づく若年層向け学習法修了証。科学的記憶アプローチの裏付け。</p>
+                                    </div>
+                                </div>
+                                <div class="cert-item">
+                                    <div class="cert-icon">🔄</div>
+                                    <div class="cert-info">
+                                        <h4>Mindshift</h4>
+                                        <p>キャリア転換や学習障害を克服するメタ学習メソッドの修了証。</p>
+                                    </div>
+                                </div>
+                                <div class="cert-item">
+                                    <div class="cert-icon">💻</div>
+                                    <div class="cert-info">
+                                        <h4>NLP & コンピュータサイエンス背景</h4>
+                                        <p>言語の「論理的分解と再構築」を指導案へ還元できる唯一無二の強み。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="strategic-alert">
+                                <strong>💡 提出書類のアピール法</strong>
+                                <p>「単なる資格の羅列ではなく、生徒に『魚をあげる』のではなく『魚の釣り方（学び方）』を指導できる基盤であると主張しましょう。」</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
